@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shippori+Antique+B1&family=Special+Elite&display=swap');
+
+
 .header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.863);
     height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
 }
 .main{
     background-color: rgb(112, 112, 112);
@@ -8,9 +16,12 @@
     width: 75%;
     margin: auto;
 }
-html{
-background-image : url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1974cbc4-e693-4528-b7f8-6d925fa77a29/d5b6674-f1d80f13-2009-4217-9f6f-d495a182c42e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE5NzRjYmM0LWU2OTMtNDUyOC1iN2Y4LTZkOTI1ZmE3N2EyOVwvZDViNjY3NC1mMWQ4MGYxMy0yMDA5LTQyMTctOWY2Zi1kNDk1YTE4MmM0MmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Gs8QwCoRcQio1NwOZx_cHgTUU_grYBwUw8RWDq-l7HE");
-background-size: 100% 100%;
-background-repeat: no-repeat;
-background-repeat: fixed;
+body{
+    margin: 0;
+    padding:0;
+    background-image : url("manoir.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
