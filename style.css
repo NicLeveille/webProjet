@@ -1,0 +1,16 @@
+.header{
+    background-color: black;
+    height: 100px;
+}
+.main{
+    background-color: rgb(112, 112, 112);
+    height: 300px;
+    width: 75%;
+    margin: auto;
+}
+html{
+background-image : url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1974cbc4-e693-4528-b7f8-6d925fa77a29/d5b6674-f1d80f13-2009-4217-9f6f-d495a182c42e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE5NzRjYmM0LWU2OTMtNDUyOC1iN2Y4LTZkOTI1ZmE3N2EyOVwvZDViNjY3NC1mMWQ4MGYxMy0yMDA5LTQyMTctOWY2Zi1kNDk1YTE4MmM0MmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Gs8QwCoRcQio1NwOZx_cHgTUU_grYBwUw8RWDq-l7HE");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-repeat: fixed;
+}
