@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/true-fast-detective');
 
 .header{
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(0, 0, 0, 0.507);
     height: 100px;
     width: 100%;
     margin: 0;
@@ -14,7 +14,7 @@
 }
 .main{
     background-color: rgba(112, 112, 112, 0.034);
-    height: 300px;
+    height: 100%;
     width: 60%;
     margin: auto;
     text-align: center;
@@ -47,5 +47,26 @@ h1{
     text-transform: uppercase;
     text-align: left;
 
+
+}
+.boxName{
+    color: black;
+    background-color: burlywood;
+    margin: 10px;
+    height: 100px;
+    margin: 30px;
+    text-align: center;
+    vertical-align:middle;
+    font-size: 150%;
+    padding: 7px;
+    border-radius: 7px;
+
+}
+.nameContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 
 }
