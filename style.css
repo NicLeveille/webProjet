@@ -8,7 +8,7 @@
     padding-top: 2%;
     font-family: 'Special Elite', serif;
     color: white;
-    font-size: 400%;
+    font-size: 3.25vw;
     text-align: center;
     vertical-align: center;
 }
@@ -35,7 +35,7 @@ body{
 .mainText{
     color:white;
     width: 80%;
-    font-size: 175%;
+    font-size: 1.5vw;
     text-align: center;
     margin: auto;
     margin-top: 4%;
@@ -62,20 +62,23 @@ h1{
     font-size: 150%;
     padding: 7px;
     border-radius: 7px;
-    word-wrap: break-word;
+    width: 450px;
+
 
 }
 .nameContainer{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fill,450px);
     grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-content: center;
 
 }
 .imgContainer{
     width: 100%;
     display: grid;
+
     grid-template-columns: repeat(auto-fill,420px);
     grid-column: auto auto;
     grid-column-gap: 60px;
