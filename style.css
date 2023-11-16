@@ -47,6 +47,7 @@ h1{
     text-transform: uppercase;
     text-align: left;
     margin-top: 50px;
+    
 
 
 }
@@ -54,13 +55,14 @@ h1{
     color: black;
     background-color: #f5bb78;
     margin: 10px;
-    height: 100px;
+    height: fit-content;
     margin: 30px;
     text-align: center;
     vertical-align:middle;
     font-size: 150%;
     padding: 7px;
     border-radius: 7px;
+    word-wrap: break-word;
 
 }
 .nameContainer{
@@ -72,12 +74,13 @@ h1{
 
 }
 .imgContainer{
-    
+    width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(auto-fill,420px);
+    grid-column: auto auto;
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+    justify-content: center;
 
 }
 .img{
