@@ -47,6 +47,7 @@ h1{
     text-transform: uppercase;
     text-align: left;
     margin-top: 50px;
+    font-size: 2vw;
     
 
 
@@ -62,13 +63,13 @@ h1{
     font-size: 150%;
     padding: 7px;
     border-radius: 7px;
-    width: 450px;
-
+    width: 21vw;
+    word-wrap: break-word;
 
 }
 .nameContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fill,450px);
+    grid-template-columns: repeat(auto-fill,21vw);
     grid-row: auto auto;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
@@ -79,7 +80,7 @@ h1{
     width: 100%;
     display: grid;
 
-    grid-template-columns: repeat(auto-fill,420px);
+    grid-template-columns: repeat(auto-fill,20vw);
     grid-column: auto auto;
     grid-column-gap: 60px;
     grid-row-gap: 60px;
@@ -87,9 +88,9 @@ h1{
 
 }
 .img{
-    width: 420px;
-    height: 300px;
-    border-image: url("img/da2br9a-ce3dd829-15d2-43be-952c-b019fcbff9d8.png" ) 10 fill / 10px / 10px ;;
+    width: 20vw;
+    height: 13vw;
+    border-image: url("img/da2br9a-ce3dd829-15d2-43be-952c-b019fcbff9d8.png" ) 2 fill / 10px / 10px ;;
     
 
     
