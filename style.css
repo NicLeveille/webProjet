@@ -90,7 +90,7 @@ h1{
     grid-template-columns: repeat(auto-fill,22vw);
     grid-column: auto auto;
     grid-column-gap: 6vw;
-    grid-row-gap: 3vw;
+    grid-row-gap: 6vw;
     justify-content: center;
 
 }
