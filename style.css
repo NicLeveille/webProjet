@@ -65,7 +65,9 @@ h1{
     width: 21vw;
     word-wrap: break-word;
     justify-content: center;
-    padding: 0.6vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+
 
 
 }
@@ -84,7 +86,7 @@ h1{
     width: 100%;
     display: grid;
 
-    grid-template-columns: repeat(auto-fill,20vw);
+    grid-template-columns: repeat(auto-fill,22vw);
     grid-column: auto auto;
     grid-column-gap: 60px;
     grid-row-gap: 60px;
@@ -92,8 +94,8 @@ h1{
 
 }
 .img{
-    width: 20vw;
-    height: 13vw;
+    width: 22vw;
+    height: 15vw;
     border-image: url("img/da2br9a-ce3dd829-15d2-43be-952c-b019fcbff9d8.png" ) 10 fill / 1.5vh / 0.5vw  0.5vw 0.5vw 0.5vw   ;
     
 
