@@ -102,3 +102,15 @@ h1{
 
     
 }
+
+.vid{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.container{
+    margin-top: 10%;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
